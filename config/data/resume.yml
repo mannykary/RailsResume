@@ -1,0 +1,99 @@
+education:
+  - school: University of Waterloo
+    degree: Electrical Engineering
+    class: '2010'
+  - school: Cornell University
+    degree: Biomedical Engineering
+    class: '2012'
+experience:
+  - role: Software Engineer
+    company: Ellucian
+    location: San Francisco, CA, USA
+    years: 2015 - 
+    description_bullets:
+      - Developed code full-stack for a competency-based education web app, an adaptive learning platform built using Ruby on Rails and AngularJS.
+      - Implemented email and text messaging feature to queue and send messages to users using Sidekiq to queue jobs asynchronously, and Redis to cache user's messaging preferences
+      - Developed prerequisite course management user interface using both AngularJS and embedded Ruby. Fetched data from the backend via Redis and an Angular service.
+      - Created advising dashboard charts using D3.js and AngularJS, using an Angular service to make an HTTP request to fetch chart data from the Rails controller.
+      - Redesigned the course list page for students and instructors to use the jQuery accordion widget, grouping courses into Not Started, In Progress, and Completed sections.
+      - Fixed numerous bugs in both the frontend and backend that were found in staging and production environments.
+      - Instrumental in doubling integration test coverage from 200 to 400+ test examples, and optimized runtime of integration tests by eliminating unnecessary waits and UI interactions.
+      - Trained test engineers and developers in UI automation spec development and performed code reviews of automation specs.
+  - role: Software Test Engineer
+    company: Revere IT
+    location: San Diego, CA, USA
+    years: 2012 - 2014
+    description_bullets:  
+      - Validated and tested manufacturing software at medical devices client. Documented and validated requirements, reported bugs/defects, and automated testing of data migration between SQL databases.
+  - role: Software QA Engineer
+    company: Unitron Hearing
+    location: Kitchener, ON, Canada
+    years: '2007'
+    description_bullets:
+      - Executed and documented sanity testing of hearing aid software.
+  - role: Software Test Engineer
+    company: NeoEdge Networks
+    location: Toronto, ON, Canada
+    years: '2006'
+    description_bullets:
+      - Executed and documented sanity testing of in-game advertising software.
+name: Manny Karyampudi
+role: Full-Stack/Mobile Software Engineer
+profile: |
+  I'm a full-stack and mobile software engineer with 5+ years of experience in the software development industry (including development, automation, and quality assurance), and I love to build and fix things. I love taking part in hackathons and developing various apps using different stacks. My strongest languages are Ruby, JavaScript, and Java. I've used Ruby on Rails and AngularJS in my professional work. I've also coded Android apps in side projects and I've picked up Objective-C and Python various projects and hackathons. I tend to be agnostic in the languages and stack being used in a given project, and I am able to learn new things very quickly. 
+
+  Feel free to reach out to me if you feel that my expertise is a good fit for your project or team!
+projects:
+  - name: Slack/Hipchat Hubot
+    description: Set up and developed a chat bot in Slack and Hipchat to say and do things based on user input. Coded in CoffeeScript and deployed to Heroku.
+    github: 'https://github.com/mannykary/discobot'
+  - name: DroidWeather
+    description: Android app displaying weather information from Weather Underground. The app retrieves and parses a JSON response using the Weather Underground API.    
+    github: 'https://github.com/mannykary/droid-weather'
+  - name: Map My Meetups
+    description: Android app that maps all Meetup.com events happening in an area. The app parses JSON responses using the Google Maps and Meetup.com APIs.
+    github: 'https://github.com/mannykary/MapMyMeetups-AS'
+  - name: Ninja Hurdles
+    description: iOS game developed for SmartInsoles, which is a wearable device designed to fit inside the sole of the shoe, allowing it to detect jumping by the user. The jump is detected in the game, triggering the character to jump over hurdles.
+    github: 'https://github.com/jindala/smartSoles'
+  - name: Ripple in a Pond
+    description: Ruby on Rails web app designed for non-profit organizations to post requests for resources needed. Donors can contribute to a non-profit's request in order to meet their needs. The aim is to minimize wasted resources by only accepting donations that are in need and preventing over-contribution of a given resource.
+    github: 'https://github.com/manubete/helping_hands'
+skills:
+  - Ruby
+  - Ruby on Rails
+  - JavaScript
+  - AngularJS
+  - jQuery
+  - HTML
+  - CSS
+  - SQL
+  - PostgreSQL
+  - Redis
+  - Sidekiq
+  - Android
+  - Java
+  - Python
+social_media:
+  - name: E-mail
+    icon: fa-envelope
+    url: 'mailto:manny@mannykary.com'
+  - name: GitHub
+    icon: fa-github
+    url: 'http://github.com/mannykary'
+  - name: LinkedIn
+    icon: fa-linkedin-square
+    url: 'http://linkedin.com/in/mannykary'
+  - name: AngelList
+    icon: fa-angellist
+    url: 'http://angel.co/mannykary'
+  - name: Twitter
+    icon: fa-twitter
+    url: 'http://twitter.com/mannykary'
+  - name: Google+
+    icon: fa-google-plus
+    url: 'http://plus.google.com/+MannyKaryampudi'
+  - name: StackOverflow
+    icon: fa-stack-overflow
+    url: 'http://stackoverflow.com/users/2444220/mannykary'            
+
