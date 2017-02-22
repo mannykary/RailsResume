@@ -2,18 +2,17 @@
     include ParseHelper
 
     def show
-      data = case params[:page]
-        when 'resume'
-          load_yaml_file('/config/data/resume.yml')
-        else
-          nil
-        end
-
-      if data.nil?
-        render_error(404)
-      else
+      if (data = get_page_data(params[:page]))
         render json: data
+      else
+        render_error(404)
       end
+    end
+
+    private
+
+    def get_page_data(page)
+      load_yaml_file("/config/data/#{page}.yml")
     end
 
   end  
