@@ -29,7 +29,7 @@ These aren't strict requirements, but the setup instructions are based on this. 
 	psql (9.6.2, server 9.5.1)
 	Type "help" for help.
 	
-	manny=# create role RailsResume with createdb login password 'password1';
+	manny=# create role myapp with createdb login password 'password1';
 	CREATE ROLE
 	manny=# \q
 	```
@@ -43,3 +43,5 @@ These aren't strict requirements, but the setup instructions are based on this. 
 6. Set up Figaro gem. Add `gem 'figaro'` to `Gemfile`, and then run `bundle install`. Then run `bundle exec figaro install`. Move all secrets from `config/secrets.yml` to `config/application.yml`
 
 7. Start server using `rails s`. Then navigate to `http://localhost:3000`. The Rails app should load successfully.
+
+Now would be a good time to make an initial commit of the barebones app.
