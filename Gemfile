@@ -37,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'figaro'
 gem 'bower-rails'
+gem 'angular-rails-templates'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
