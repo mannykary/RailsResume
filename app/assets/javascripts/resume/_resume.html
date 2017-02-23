@@ -1,0 +1,12 @@
+<div ng-controller="ResumeCtrl">
+
+  <div>
+    <h2>Education</h2>
+    <ul>
+      <li ng-repeat="education in resume.education">
+        {{ education.school }} - {{ education.degree }} (Class of {{ education.class }})
+      </li>
+    </ul>
+  </div>
+
+</div>

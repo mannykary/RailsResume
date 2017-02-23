@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-	get "/pages/:page" => "pages#show"
+  root to: 'angular#show'
+
+  get "/pages/:page" => "pages#show", defaults: { format: :json }
 end
