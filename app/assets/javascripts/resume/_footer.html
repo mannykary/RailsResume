@@ -1,0 +1,15 @@
+<footer>
+  <div id="footer-bar" class="row text-center">
+    <div class="col-sm-3">
+      &copy; Manny Karyampudi
+    </div>
+    <div class="col-sm-6">
+      <a ng-href="{{ item.url }}" ng-repeat-start="item in resume.social_media">{{ item.name }}</a>
+      <span ng-repeat-end ng-hide="$last">{{ '| ' }}</span>
+      </span>
+    </div>
+    <div class="col-sm-3 ">
+      <a ui-sref="resume">Back to top</a>
+    </div>
+  </div>
+</footer>

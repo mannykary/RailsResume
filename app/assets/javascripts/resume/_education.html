@@ -1,0 +1,20 @@
+<section id="page-education" class="page-education">
+  <div id="education" class="pad-section">
+    <div class="container">
+      <header class="section-header">
+        <h2 class="section-title">Education</h2>
+        <div class="spacer"></div>
+      </header>
+      <div class="row content">
+        <div class="col-sm-6 text-center" ng-repeat="school in resume.education">
+        <img class="no-resize" ng-src="{{ school.asset_path }}" alt="{{ school.name }}">
+          <p>
+            {{ school.degree }}
+            <br>{{ school.program }}
+            <br>Class of {{ school.class }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

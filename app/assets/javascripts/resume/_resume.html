@@ -1,12 +1,10 @@
 <div ng-controller="ResumeCtrl">
-
-  <div>
-    <h2>Education</h2>
-    <ul>
-      <li ng-repeat="education in resume.education">
-        {{ education.school }} - {{ education.degree }} (Class of {{ education.class }})
-      </li>
-    </ul>
-  </div>
-
+  <ng-include src=" 'resume/_navbar.html' "></ng-include>
+  <ng-include src=" 'resume/_intro.html' "></ng-include>
+  <ng-include src=" 'resume/_profile.html' "></ng-include>
+  <ng-include src=" 'resume/_skills.html' "></ng-include>
+  <ng-include src=" 'resume/_education.html' "></ng-include>
+  <ng-include src=" 'resume/_experience.html' "></ng-include>
+  <ng-include src=" 'resume/_projects.html' "></ng-include>
+  <ng-include src=" 'resume/_footer.html' "></ng-include>
 </div>

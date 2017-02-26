@@ -1,5 +1,5 @@
 (function () {
   'use strict';
 
-  angular.module('RailsResume', ['ngResource', 'ui.router', 'templates']);
+  angular.module('RailsResume', ['ngResource', 'ngLodash', 'ui.router', 'templates']);
 })();

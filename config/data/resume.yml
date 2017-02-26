@@ -1,15 +1,20 @@
+profile_path: 'resume/profile_apr2014.jpg'
 education:
-  - school: University of Waterloo
-    degree: Electrical Engineering
+  - name: University of Waterloo
+    degree: Bachelor of Applied Science
+    program: Electrical Engineering
     class: '2010'
-  - school: Cornell University
-    degree: Biomedical Engineering
+    image_path: 'resume/Waterloo_logo.jpg'
+  - name: Cornell University
+    degree: Master of Engineering
+    program: Biomedical Engineering
     class: '2012'
+    image_path: 'resume/Cornell_logo.jpg'
 experience:
   - role: Software Engineer
     company: Ellucian
     location: San Francisco, CA, USA
-    years: 2015 - 
+    years: '2015 -'
     description_bullets:
       - Developed code full-stack for a competency-based education web app, an adaptive learning platform built using Ruby on Rails and AngularJS.
       - Implemented email and text messaging feature to queue and send messages to users using Sidekiq to queue jobs asynchronously, and Redis to cache user's messaging preferences
@@ -23,7 +28,7 @@ experience:
     company: Revere IT
     location: San Diego, CA, USA
     years: 2012 - 2014
-    description_bullets:  
+    description_bullets:
       - Validated and tested manufacturing software at medical devices client. Documented and validated requirements, reported bugs/defects, and automated testing of data migration between SQL databases.
   - role: Software QA Engineer
     company: Unitron Hearing
@@ -39,16 +44,15 @@ experience:
       - Executed and documented sanity testing of in-game advertising software.
 name: Manny Karyampudi
 role: Full-Stack/Mobile Software Engineer
-profile: |
-  I'm a full-stack and mobile software engineer with 5+ years of experience in the software development industry (including development, automation, and quality assurance), and I love to build and fix things. I love taking part in hackathons and developing various apps using different stacks. My strongest languages are Ruby, JavaScript, and Java. I've used Ruby on Rails and AngularJS in my professional work. I've also coded Android apps in side projects and I've picked up Objective-C and Python various projects and hackathons. I tend to be agnostic in the languages and stack being used in a given project, and I am able to learn new things very quickly. 
-
-  Feel free to reach out to me if you feel that my expertise is a good fit for your project or team!
+profile:
+  - I'm a full-stack and mobile software engineer with 5+ years of experience in the software development industry (including development, automation, and quality assurance), and I love to build and fix things. I love taking part in hackathons and developing various apps using different stacks. My strongest languages are Ruby, JavaScript, and Java. I've used Ruby on Rails and AngularJS in my professional work. I've also coded Android apps in side projects and I've picked up Objective-C and Python various projects and hackathons. I tend to be agnostic in the languages and stack being used in a given project, and I am able to learn new things very quickly.
+  - Feel free to reach out to me if you feel that my expertise is a good fit for your project or team!
 projects:
   - name: Slack/Hipchat Hubot
     description: Set up and developed a chat bot in Slack and Hipchat to say and do things based on user input. Coded in CoffeeScript and deployed to Heroku.
     github: 'https://github.com/mannykary/discobot'
   - name: DroidWeather
-    description: Android app displaying weather information from Weather Underground. The app retrieves and parses a JSON response using the Weather Underground API.    
+    description: Android app displaying weather information from Weather Underground. The app retrieves and parses a JSON response using the Weather Underground API.
     github: 'https://github.com/mannykary/droid-weather'
   - name: Map My Meetups
     description: Android app that maps all Meetup.com events happening in an area. The app parses JSON responses using the Google Maps and Meetup.com APIs.
@@ -60,40 +64,39 @@ projects:
     description: Ruby on Rails web app designed for non-profit organizations to post requests for resources needed. Donors can contribute to a non-profit's request in order to meet their needs. The aim is to minimize wasted resources by only accepting donations that are in need and preventing over-contribution of a given resource.
     github: 'https://github.com/manubete/helping_hands'
 skills:
-  - Ruby
-  - Ruby on Rails
-  - JavaScript
-  - AngularJS
-  - jQuery
-  - HTML
-  - CSS
-  - SQL
-  - PostgreSQL
-  - Redis
-  - Sidekiq
-  - Android
-  - Java
-  - Python
+  - type: Languages
+    list: Ruby, JavaScript, SQL, HTML, CSS, Java, Python
+  - type: Frameworks
+    list: Ruby on Rails, AngularJS, jQuery, Lodash, Bootstrap, Android
+  - type: Backend
+    list: PostgreSQL, Redis, Sidekiq, RESTful APIs, JSON
+  - type: Tools
+    list: Git, Terminal, Chrome Developer Tools, Homebrew, Bower, RVM, NPM, Heroku, AWS
+  - type: Automation Testing
+    list: RSpec, Capybara, SitePrism, Selenium
 social_media:
   - name: E-mail
     icon: fa-envelope
+    class: btn-email
     url: 'mailto:manny@mannykary.com'
   - name: GitHub
     icon: fa-github
+    class: btn-github
     url: 'http://github.com/mannykary'
   - name: LinkedIn
     icon: fa-linkedin-square
+    class: btn-linkedin
     url: 'http://linkedin.com/in/mannykary'
   - name: AngelList
     icon: fa-angellist
+    class: btn-angel
     url: 'http://angel.co/mannykary'
   - name: Twitter
     icon: fa-twitter
+    class: btn-twitter
     url: 'http://twitter.com/mannykary'
-  - name: Google+
-    icon: fa-google-plus
-    url: 'http://plus.google.com/+MannyKaryampudi'
-  - name: StackOverflow
+  - name: Stack Overflow
     icon: fa-stack-overflow
-    url: 'http://stackoverflow.com/users/2444220/mannykary'            
+    class: btn-stackoverflow
+    url: 'http://stackoverflow.com/users/2444220/mannykary'
 

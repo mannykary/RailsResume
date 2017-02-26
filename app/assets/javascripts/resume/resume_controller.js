@@ -3,15 +3,15 @@
 
   angular.module('RailsResume')
     .controller('ResumeCtrl', [
-      '$scope', 'Page', 
+      '$scope', 'Page',
       function ($scope, Page) {
-        
-        $scope.resume = {}
+
+        $scope.resume = {};
 
         Page.show({ page: 'resume' }).$promise.then(function (response) {
           $scope.resume = response;
         });
-         
+
       }
     ]);
 })();
