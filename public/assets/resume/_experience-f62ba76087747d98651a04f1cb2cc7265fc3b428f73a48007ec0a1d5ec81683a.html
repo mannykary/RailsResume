@@ -1,0 +1,21 @@
+<section id="page-experience" class="page-experience">
+  <div id="experience" class="pad-section">
+    <div class="container">
+      <header class="section-header">
+        <h2 class="section-title">Experience</h2>
+        <div class="spacer"></div>
+      </header>
+      <div class="content">
+        <div ng-repeat="job in resume.experience">
+          <h3>{{ job.role }}</h3>
+          <h4>{{ job.company }} - {{ job.location }} ({{ job.years }})</h4>
+          <ul>
+            <li ng-repeat="bullet in job.description_bullets">
+              {{ bullet }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
