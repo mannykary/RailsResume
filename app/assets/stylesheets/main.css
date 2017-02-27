@@ -1,0 +1,361 @@
+/* general styles */
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 30px 0px 30px 0px;
+}
+.pad-section img {
+  width: 100%;
+}
+
+.content
+{
+  padding: 30px;
+}
+
+a.project-title
+{
+  color: #7b2929;
+}
+
+footer
+{
+  padding: 10px;
+  background: #eceae0;
+  font-size: 0.8em;
+}
+
+#footer-bar
+{
+  margin: 0;
+}
+
+h3
+{
+  font-weight: bold;
+  color: #7b2929;
+}
+
+.btn
+{
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+img.no-resize
+{
+  max-width: 250px;
+}
+
+.center-row {
+	display: table;
+}
+
+#page-welcome
+{
+  background: url(resume/golden_gate_bridge.jpg) no-repeat center center fixed;
+  width: 100vw;
+  height: 100vh;
+  min-height: 600px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#page-welcome header
+{
+  color: #7b2929;
+  padding-top: 20%;
+}
+
+#page-welcome header h1
+{
+  font-size: 4.5em;
+  font-weight: 700;
+  letter-spacing: .1em;
+  line-height: 1em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+#page-welcome header p
+{
+  font-size: 2em;
+  display: inline-block;
+  margin-bottom: 5px;
+  letter-spacing: .1em;
+  line-height: 3em;
+  text-transform: uppercase;
+  padding: 0 8px;
+}
+
+#page-education p
+{
+  text-align: center;
+}
+
+.page-skills, .page-experience
+{
+  background-color: #eceae0;
+}
+
+.profile-pic
+{
+  box-shadow: 0 0 30px black;
+}
+
+.navbar-default .navbar-brand
+{
+  text-transform: uppercase;
+  letter-spacing: .1em;
+
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus
+{
+  color: #7b2929;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+{
+  color: #7b2929;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+{
+  color: #7b2929;
+  background-color: #E7E7E7;
+}
+
+.skills .btn-skill
+{
+  margin-right: 10px;
+}
+
+.skills
+{
+  margin-bottom: 55px;
+}
+
+.skills i
+{
+  font-size: 20px;
+  color: #7b2929;
+  position: relative;
+}
+
+.social-icons .btn
+{
+  margin-right: 15px;
+}
+
+.social-icons
+{
+  padding-top: 10px;
+  margin-bottom: 35px;
+}
+
+.social-icons .btn.btn-clear
+{
+  border: 1px solid #7b2929;
+}
+
+.btn-round
+{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 0;
+}
+
+.btn-round i
+{
+  font-size: 20px;
+  top: 15px;
+  position: relative;
+}
+
+.btn.btn-clear
+{
+  border: 1px solid #7b2929;
+  color: #7b2929;
+  background: 0 0;
+  background-color: none;
+  font-weight: 700;
+  -webkit-transition-duration: .8s;
+  -moz-transition-duration: .8s;
+  -o-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-property: 0;
+  -moz-transition-property: 0;
+  -o-transition-property: 0;
+  transition-property: transform;
+}
+
+.btn.btn-clear.selected, .btn.btn-clear:hover
+{
+  background: #eceae0;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+.btn-github:hover
+{
+  color: #4183C4;
+}
+
+.btn-angel:hover
+{
+  color: #000;
+}
+
+.btn-email:hover
+{
+  color: #000;
+}
+
+.btn-wordpress:hover
+{
+  color: #000;
+}
+
+.btn-twitter:hover
+{
+  color: #2BA9E0;
+}
+
+
+.btn-linkedin:hover
+{
+  color: #015786;
+}
+
+.btn-google:hover
+{
+  color: #D3492C;
+}
+
+.btn-print:hover
+{
+  color: #000;
+}
+
+.btn-stackoverflow:hover
+{
+  color: #FF9900;
+}
+
+.section-header p
+{
+  font-size: 1.5em;
+}
+
+.section-title
+{
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #7b2929;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.spacer
+{
+  width: 100px;
+  height: 2px;
+  margin: auto;
+  background-color: #7b2929;
+}
+
+.section-subtitle
+{
+  padding: 30px 0;
+}
+
+@media all and (max-width:620px)
+{
+
+  #page-welcome header h1
+  {
+    font-size: 3.0em;
+  }
+
+  #page-welcome header p
+  {
+    font-size: 1.2em;
+    display: inline-block;
+    margin-bottom: 5px;
+    letter-spacing: .1em;
+    line-height: 3em;
+    text-transform: uppercase;
+    padding: 0 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Vertically align profile picture so it looks nicer with description text */
+  .row.profile {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 835px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+}

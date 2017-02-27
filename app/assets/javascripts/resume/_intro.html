@@ -1,0 +1,29 @@
+<section id="page-welcome">
+  <div class="container">
+    <div class="row">
+      <header class="centered">
+        <h1>{{ resume.name }}</h1>
+        <p>{{ resume.role }}</p>
+      </header>
+      <div class="skills">
+        <i class="btn-skill fa fa-html5"></i>
+        <i class="btn-skill fa fa-css3"></i>
+        <i class="btn-skill fa fa-code"></i>
+        <i class="btn-skill fa fa-android"></i>
+        <i class="btn-skill fa fa-apple"></i>
+        <i class="btn-skill fa fa-database"></i>
+        <i class="btn-skill fa fa-linux"></i>
+        <i class="btn-skill fa fa-terminal"></i>
+        <i class="btn-skill fa fa-git"></i>
+
+      </div>
+      <div class="social-icons">
+        <span ng-repeat="socialMedia in resume.social_media">
+          <a ng-href="{{ socialMedia.url }}" class="btn btn-round btn-clear {{ socialMedia.class }}">
+            <i class="fa {{ socialMedia.icon }}"></i>
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>

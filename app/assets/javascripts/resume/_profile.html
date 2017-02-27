@@ -1,0 +1,20 @@
+<section id="page-profile" class="page-profile">
+  <div id="profile" class="pad-section">
+    <div class="container">
+      <header class="section-header">
+        <h2 class="section-title">Profile</h2>
+        <div class="spacer"></div>
+      </header>
+      <div class="content row profile">
+        <div class="col-sm-4 text-center">
+          <img class="no-resize profile-pic img-rounded" ng-src="{{ resume.profile_asset_path }}">
+        </div>
+        <div class="col-sm-8">
+          <p ng-class="{ 'section-subtitle': $first }" ng-repeat="paragraph in resume.profile">
+            {{ paragraph }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
