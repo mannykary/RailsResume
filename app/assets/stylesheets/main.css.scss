@@ -58,7 +58,7 @@ img.no-resize
 
 #page-welcome
 {
-  background: image-url("resume/golden_gate_bridge.jpg") no-repeat center center fixed;
+  background: url(asset-path("resume/golden_gate_bridge.jpg")) no-repeat center center fixed;
   width: 100vw;
   height: 100vh;
   min-height: 600px;
